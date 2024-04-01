@@ -3,7 +3,19 @@ import "./style.css";
 import Convert from "../Convert";
 import gif_loading from "/loading.gif";
 
-export default function Url({ videoData, aniamtion, fetchData, setUrlValue }) {
+type UrlProps = {
+  videoData: any;
+  animation: boolean;
+  fetchData: () => void;
+  setUrlValue: (value: string) => void;
+};
+
+export default function Url({
+  videoData,
+  animation,
+  fetchData,
+  setUrlValue,
+}: UrlProps) {
   const [displayUrl, setDisplayUrl] = useState(true);
   const [displayConvert, setDisplayConvert] = useState(false);
 
@@ -12,10 +24,10 @@ export default function Url({ videoData, aniamtion, fetchData, setUrlValue }) {
   };
 
   useEffect(() => {
-    if (!aniamtion && videoData) {
+    if (!animation && videoData) {
       showHandler();
     }
-  }, [aniamtion]);
+  }, [animation]);
 
   const showHandler = () => {
     setDisplayUrl(false);
@@ -30,7 +42,7 @@ export default function Url({ videoData, aniamtion, fetchData, setUrlValue }) {
   return (
     <>
       <section>
-        {aniamtion ? (
+        {animation ? (
           <img src={gif_loading} alt="loading" />
         ) : displayUrl ? (
           <div className="url_input">

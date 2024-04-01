@@ -101,10 +101,11 @@ function Home({ videoData, animation, fetchData, setUrlValue }: HomeProps) {
     <>
       <Url
         videoData={videoData}
-        aniamtion={animation}
+        animation={animation}
         fetchData={fetchData}
         setUrlValue={setUrlValue}
       />
+
       <Note />
       <Features />
       <Instructions />

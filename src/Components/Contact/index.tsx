@@ -4,31 +4,34 @@ import React, { useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Contact() {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
+
   // STATE FOR MESSAGE SENT
   const [sentmessage, Setsentmessage] = useState<Boolean>(false);
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("service_dy493v9", "template_as8b29a", form.current, {
-        publicKey: "Rdi4mnc2w1slZpWbU",
-      })
-      .then(
-        () => {
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
+    if (form.current) {
+      emailjs
+        .sendForm("service_dy493v9", "template_as8b29a", form.current, {
+          publicKey: "Rdi4mnc2w1slZpWbU",
+        })
+        .then(
+          () => {
+            console.log("SUCCESS!");
+          },
+          (error) => {
+            console.log("FAILED...", error.text);
+          }
+        );
+    }
   };
 
   // ONCLICK FOR SUBMIT
-  const onClickSentMessage = () => {
+  function onClickSentMessage() {
     Setsentmessage(true);
-  };
+  }
 
   return (
     <>
