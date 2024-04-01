@@ -1,0 +1,31 @@
+.section_note {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: center;
+  color: black;
+}
+
+.note {
+  width: 60%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.note .note_headline {
+  font-size: 19px;
+  color: #191919;
+}
+.note p {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .note {
+    width: 100%;
+    gap: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

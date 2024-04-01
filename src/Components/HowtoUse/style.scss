@@ -1,0 +1,45 @@
+// HOW TO USE COMPONENETS
+section {
+  color: black;
+  // border: 1px solid red;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px 10px;
+  padding: 5px;
+  justify-items: center;
+}
+
+.headline_tutorial {
+  width: 100%;
+  height: 70px;
+  font-size: 25px;
+  padding: 20px;
+  color: #191919;
+  border-radius: 5px;
+  text-align: center;
+  // background-color: #ffd55;
+  color: #ff2d55;
+}
+
+.video_tutorial {
+  //   border: 1px solid #191919;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  width: 70%;
+}
+
+@media only screen and (max-width: 600px) {
+  .video_tutorial {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}

@@ -1,0 +1,73 @@
+// NAVBAR .SCSS FILE
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: #ff2d55;
+  color: white;
+}
+
+.nav_element {
+  // height: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px 10px;
+  // padding: 10px;
+}
+
+.logo {
+  // background-color: #333333;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 5px;
+}
+
+.nav_left ul {
+  // height: 40px;
+  height: 100%;
+  // margin-top: 10px;
+  // border: 1px solid black;
+  cursor: pointer;
+  list-style-type: none;
+  // background-color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-radius: 5px;
+}
+
+.li_nav::before {
+  display: none;
+}
+
+.nav_right {
+  // background-color: #333333;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove_li_deafult {
+  list-style-type: none;
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav_element {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+  }
+}

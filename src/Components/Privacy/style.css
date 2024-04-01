@@ -1,0 +1,41 @@
+.section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px 10px;
+  padding: 20px;
+}
+
+.privacy_text {
+  padding: 10px;
+  border-radius: 5px;
+  width: 60%;
+}
+.privacy_text h1 {
+  color: #191919;
+  margin-bottom: 10px;
+}
+
+.privacy_headline {
+  color: #191919;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+.privacy_headline h1 {
+  font-size: 30px;
+  color: #ff2d55;
+}
+
+@media only screen and (max-width: 600px) {
+  .privacy_text {
+    width: 100%;
+    border: 1px solid black;
+  }
+  .privacy_text h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

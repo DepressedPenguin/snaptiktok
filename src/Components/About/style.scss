@@ -1,0 +1,62 @@
+// ABOUT .SCSS
+section {
+  color: black;
+  // border: 1px solid orange;
+
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px 10px;
+  padding: 10px;
+}
+
+.about_us {
+  width: 70%;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  // background-color: pink;
+
+  h1 {
+    color: #ff2d55;
+  }
+}
+
+.about_us_p {
+  width: 70%;
+  padding: 20px;
+  border-radius: 5px;
+  // background-color: pink;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.social_media {
+  width: 35%;
+}
+
+.social_media_icons {
+  list-style-type: none;
+  text-decoration: none;
+  color: #191919;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  // border: 1px solid red;
+}
+
+.icon_about {
+  font-size: 35px;
+  color: #191919;
+}
+
+@media only screen and (max-width: 600px) {
+  .about_us_p {
+    width: 100%;
+    border: 1px solid black;
+  }
+}

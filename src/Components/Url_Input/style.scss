@@ -1,0 +1,81 @@
+// URL INPUT FILE .SCSS
+section {
+  background-color: white;
+  color: #f03e5f;
+  // border: 2px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.url_input {
+  height: 290px;
+  width: 90%;
+  // border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.input_zone {
+  width: 100%;
+  height: 120px;
+  // border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#headline_url {
+  color: #f03e5f;
+  font-size: 25px;
+}
+
+input {
+  width: 100%;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 2px solid #f03e5f;
+  // border: none;
+  height: 55px;
+  background-color: transparent;
+  // border-bottom: 2px solid #f03e5f;
+}
+
+.input_filed {
+  color: #191919;
+}
+
+input::placeholder {
+  padding: 20px;
+  font-size: 15px;
+  color: grey;
+}
+
+input + button {
+  width: 120px;
+  color: white;
+  background-color: #f03e5f;
+  border-radius: 5px;
+  font-size: 16px;
+  border: none;
+  height: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .url_input {
+    text-align: center;
+  }
+
+  .url_input input::placeholder {
+    font-size: 17px;
+  }
+
+  input + button {
+    margin-top: 30px;
+  }
+}
