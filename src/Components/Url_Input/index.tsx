@@ -17,7 +17,7 @@ export default function Url({
   setUrlValue,
 }: UrlProps) {
   const [displayUrl, setDisplayUrl] = useState(true);
-  const [displayConvert, setDisplayConvert] = useState(false);
+  const [, setDisplayConvert] = useState(false);
 
   const onChangeUrl = (e: React.ChangeEvent<HTMLInputElement>) => {
     setUrlValue(e.target.value);
