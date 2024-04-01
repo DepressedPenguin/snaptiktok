@@ -1,6 +1,6 @@
 import "./style.css";
 import emailjs from "@emailjs/browser";
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Contact() {
