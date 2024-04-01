@@ -3,49 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snaptiktok App</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Snaptiktok</h1>
-        <p>Welcome to Snaptiktok! Your one-stop solution for creating and sharing amazing short videos.</p>
-    </header>
-
-    <section>
-        <div class="details_tiktok_video">
-            <div class="logo_zone">
-                <div class="logo_account">
-                    <!-- Thumbnail image -->
-                    <img src="path_to_thumbnail_image" alt="Thumbnail">
-                </div>
-            </div>
-            <div class="preview_img">
-                <!-- Dynamic cover image -->
-                <img src="path_to_dynamic_cover_image" alt="Dynamic Cover">
-            </div>
-            <div class="account_user_and_keywords">
-                <!-- Author -->
-                <div class="username_account">Author: [Author's Name]</div>
-                <!-- Description -->
-                <div class="username_account">Keywords: [Keywords separated by commas]</div>
-            </div>
-            <div class="download_btns">
-                <div class="download_details">
-                    <!-- Link to download video in HD -->
-                    <a class="download_button" href="path_to_video">Download Video HD</a>
-                </div>
-                <div class="download_details">
-                    <!-- Link to download music in MP3 format -->
-                    <a class="download_button" href="path_to_music">Download Music MP3</a>
-                </div>
-                <div class="download_details">
-                    <!-- Button to go back -->
-                    <button class="back_for_more">BACK</button>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <h1>Snaptiktok</h1>
+    <p>Snaptiktok is a React application that allows users to download TikTok videos without watermarks. It provides a user-friendly interface to enter TikTok video URLs and download them in HD quality along with the accompanying music.</p>
+    <h2>Features</h2>
+    <ul>
+        <li>Download TikTok videos without watermarks.</li>
+        <li>High-definition video downloads.</li>
+        <li>Simple and intuitive user interface.</li>
+    </ul>
+    <h2>Installation</h2>
+    <ol>
+        <li>Clone this repository to your local machine.</li>
+        <li>Navigate to the project directory.</li>
+        <li>Install dependencies using <code>npm install</code>.</li>
+        <li>Create a <code>.env</code> file at the root of the project and add your RapidAPI key and host:</li>
+    </ol>
+    <pre><code>VITE_API_KEY=your_rapidapi_key
+VITE_HOST_API=your_rapidapi_host</code></pre>
+    <ol start="5">
+        <li>Start the development server with <code>npm start</code>.</li>
+        <li>Access the application in your browser at <code>http://localhost:3000</code>.</li>
+    </ol>
+    <h2>Usage</h2>
+    <ol>
+        <li>Open the Snaptiktok application in your browser.</li>
+        <li>Enter the URL of the TikTok video you want to download.</li>
+        <li>Click on the "Download" button.</li>
+        <li>Wait for the video to be processed.</li>
+        <li>Once processed, click on the "Download Video HD" button to save the video to your device.</li>
+    </ol>
+    <h2>Technologies Used</h2>
+    <ul>
+        <li>React</li>
+        <li>React Router</li>
+        <li>CSS</li>
+        <li>SCSS</li>
+         <li>BOOTSTRAP</li>
+    </ul>
+    <h2>Contributors</h2>
+    <ul>
+        <li><a href="https://github.com/DepressedPenguin">DepressedPenguin</a></li>
+    </ul>
+    <h2>License</h2>
+    <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 </body>
 </html>
