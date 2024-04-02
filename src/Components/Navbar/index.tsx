@@ -29,7 +29,13 @@ export default function Navbar() {
             <h1>Snaptiktok</h1>
           </div>
           <div className="nav_right">
-            <li className="li_nav">Donwload Youtube Mp3</li>
+            <a
+              className="mp3_link"
+              href="https://qy2mp3.online/"
+              target="blank"
+            >
+              <li className="li_nav">Donwload Youtube Mp3</li>
+            </a>
           </div>
         </div>
       </header>

@@ -38,7 +38,13 @@ export default function Footer() {
           <div className="split_footer">
             <h1 className="headline_footer">More Tools</h1>
             <ul>
-              <li>Youtube Donwloader MP3</li>
+              <a
+                className="mp3_footer_link"
+                href="https://qy2mp3.online/"
+                target="blank"
+              >
+                <li>Youtube Donwloader MP3</li>
+              </a>
             </ul>
           </div>
         </div>

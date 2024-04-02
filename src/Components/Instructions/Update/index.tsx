@@ -6,20 +6,12 @@ export default function Update() {
       <section className="main_update">
         <div className="update">
           <div className="update_logs">
-            <h4 className="headline_card"> ChangeLog (22 July 2023):</h4>
-            <p>
-              snaptiktoknow supports downloading TikTok slideshows and TikTok
-              stories in HD quality.
-            </p>
+            <h4 className="headline_card">(02/04/2024):</h4>
+            <p>February 4, 2024, we launched the first version of Snaptiktok</p>
           </div>
           <div className="update_logs">
-            <h4 className="headline_card">
-              stars ChangeLog (18 September 2021):{" "}
-            </h4>
-            <p>
-              Some errors in Downloading TikTok Videos are solved, Don't forget
-              to share MusicallyDown!
-            </p>
+            <h4 className="headline_card"></h4>
+            <p></p>
           </div>
           <div className="update_logs"></div>
           <div className="update_logs"></div>
