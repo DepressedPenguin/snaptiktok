@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="split_footer">
             <h1 className="headline_footer">Quick Links</h1>
             <ul>
-              <li>Download TikTok Story</li>
+              {/* <li>Download TikTok Story</li> */}
               <li>
                 <Link className="remove_def_li" to="terms">
                   Terms of Service

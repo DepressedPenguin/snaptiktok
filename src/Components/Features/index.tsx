@@ -18,7 +18,7 @@ export default function Features() {
             <i className="medium material-icons">music_video</i>
             <h5>Videos & MP3</h5>
             <p>
-              Download TikTok Videos in MP4 HD & TikTok MP3 from MusicallyDown.
+              Download TikTok Videos in MP4 HD & TikTok MP3 from snaptiktok.
               TikTok Video Download in MP4 & MP3 Format.
             </p>
           </div>
@@ -27,7 +27,7 @@ export default function Features() {
             <h5>Easy Downloads</h5>
             <p>
               We're the Fastest TikTok Video Downloader. Download TikTok video
-              without Watermark Easily with MusicallyDown.
+              without Watermark Easily with snaptiktok.
             </p>
           </div>
           <div className="boxs">

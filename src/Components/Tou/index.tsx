@@ -38,14 +38,14 @@ export default function Tou() {
             property of snaptiktok or its licensors and are protected by
             copyright and trademark laws. You may not use any content or
             materials on the snaptiktok website for any commercial purpose
-            without the express written consent of MusicallyDown.
+            without the express written consent of snaptiktok.
           </p>
           <br />
           <h1>Entire Agreement</h1>
           <p>
             These Terms of Service constitute the entire agreement between you
-            and snaptiktok with respect to the use of the MusicallyDown service.
-            If any provision of these Terms of Service is found to be invalid or
+            and snaptiktok with respect to the use of the snaptiktok service. If
+            any provision of these Terms of Service is found to be invalid or
             unenforceable, that provision
           </p>
           <br />

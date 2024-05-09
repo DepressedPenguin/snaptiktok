@@ -10,8 +10,8 @@ export default function Update() {
             <p>February 4, 2024, we launched the first version of Snaptiktok</p>
           </div>
           <div className="update_logs">
-            <h4 className="headline_card"></h4>
-            <p></p>
+            <h4 className="headline_card">(09/05/2024):</h4>
+            <p>Fix Some broken links & Update terms</p>
           </div>
           <div className="update_logs"></div>
           <div className="update_logs"></div>
