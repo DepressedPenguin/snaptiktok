@@ -12,6 +12,7 @@ import About from "./Components/About";
 import Tou from "./Components/Tou";
 import Privacy from "./Components/Privacy";
 import Contact from "./Components/Contact";
+import Adstxt from "./Components/AdsTxt";
 
 type VideoData = {
   thumbImg: string;
@@ -81,6 +82,7 @@ function App() {
             <Route path="terms" element={<Tou />} />
             <Route path="privacy" element={<Privacy />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="ads.txt" element={<Adstxt />} />
           </Routes>
           <Footer />
         </div>
