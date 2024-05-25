@@ -1,7 +1,12 @@
 import { useState } from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import "./App.css";
 import Features from "./Components/Features";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer";
 import Instructions from "./Components/Instructions";
 import Navbar from "./Components/Navbar";
@@ -61,33 +66,14 @@ function App() {
   };
 
   return (
-    <>
-      <Router>
-        <div>
-          <Navbar />
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <Home
-                  videoData={videoData}
-                  animation={animation}
-                  fetchData={fetchData}
-                  setUrlValue={setUrlValue}
-                />
-              }
-            />
-            <Route path="tutorial" element={<HowToUse />} />
-            <Route path="about" element={<About />} />
-            <Route path="terms" element={<Tou />} />
-            <Route path="privacy" element={<Privacy />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="ads.txt" element={<Adstxt />} />
-          </Routes>
-          <Footer />
-        </div>
-      </Router>
-    </>
+    <Router>
+      <MainContent
+        videoData={videoData}
+        animation={animation}
+        fetchData={fetchData}
+        setUrlValue={setUrlValue}
+      />
+    </Router>
   );
 }
 
@@ -107,10 +93,46 @@ function Home({ videoData, animation, fetchData, setUrlValue }: HomeProps) {
         fetchData={fetchData}
         setUrlValue={setUrlValue}
       />
-
       <Note />
       <Features />
       <Instructions />
+    </>
+  );
+}
+
+function MainContent({
+  videoData,
+  animation,
+  fetchData,
+  setUrlValue,
+}: HomeProps) {
+  const location = useLocation();
+
+  const showHeaderFooter = location.pathname !== "/ads.txt";
+
+  return (
+    <>
+      {showHeaderFooter && <Navbar />}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Home
+              videoData={videoData}
+              animation={animation}
+              fetchData={fetchData}
+              setUrlValue={setUrlValue}
+            />
+          }
+        />
+        <Route path="tutorial" element={<HowToUse />} />
+        <Route path="about" element={<About />} />
+        <Route path="terms" element={<Tou />} />
+        <Route path="privacy" element={<Privacy />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="ads.txt" element={<Adstxt />} />
+      </Routes>
+      {showHeaderFooter && <Footer />}
     </>
   );
 }
