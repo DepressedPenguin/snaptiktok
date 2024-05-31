@@ -4,9 +4,10 @@
 }
 
 .faq {
-  background-color: #ff2d55;
+  background: linear-gradient(to bottom, #1c172e 0%, #ff0066 89%);
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  border: 1px solid white;
   grid-gap: 10px 10px;
   padding: 5px;
   border-radius: 5px;

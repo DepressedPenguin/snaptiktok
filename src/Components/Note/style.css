@@ -17,10 +17,11 @@
 }
 .note .note_headline {
   font-size: 19px;
-  color: #191919;
+  color: white;
 }
 .note p {
   font-size: 14px;
+  color: white;
 }
 
 @media only screen and (max-width: 1200px) {

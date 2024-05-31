@@ -5,7 +5,9 @@
 }
 
 header {
-  background-color: #ff2d55;
+  // background-color: #ff2d55;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
+  border-bottom: 1px solid white;
   color: white;
 }
 
@@ -14,6 +16,8 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px 10px;
+  height: 70px;
+
   // padding: 10px;
 }
 
@@ -74,5 +78,6 @@ header {
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
     padding: 10px;
+    height: auto;
   }
 }

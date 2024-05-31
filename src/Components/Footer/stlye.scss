@@ -20,8 +20,11 @@ footer {
 .split_footer {
   background-color: white;
   color: white;
-  background-color: #ff2d55;
-  //   border: 1px solid #191919;
+  background: linear-gradient(
+    to left,
+    #1c172e 0%,
+    #ff0066 89%
+  ); //   border: 1px solid #191919;
   border-radius: 15px;
 
   display: flex;
@@ -42,8 +45,11 @@ footer {
 }
 
 .bottom_level_footer {
-  background-color: #ff2d55;
-  // border-radius: 5px;
+  background: linear-gradient(
+    to left,
+    #1c172e 0%,
+    #ff0066 89%
+  ); // border-radius: 5px;
   color: white;
   display: flex;
   align-items: center;

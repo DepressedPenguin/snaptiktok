@@ -1,7 +1,9 @@
 // URL INPUT FILE .SCSS
 section {
-  background-color: white;
-  color: #f03e5f;
+  // background-color: white;
+  // background: linear-gradient(to bottom left, #1c172e 12%, #ff0066 67%);
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
+  color: white;
   // border: 2px solid orange;
   display: flex;
   align-items: center;
@@ -17,6 +19,10 @@ section {
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
+
+  p {
+    color: white;
+  }
 }
 
 .input_zone {
@@ -31,7 +37,7 @@ section {
 }
 
 #headline_url {
-  color: #f03e5f;
+  color: white;
   font-size: 25px;
 }
 
@@ -39,7 +45,7 @@ input {
   width: 100%;
   font-size: 20px;
   border-radius: 20px;
-  border: 2px solid #f03e5f;
+  border: 2px solid white;
   // border: none;
   height: 55px;
   background-color: transparent;
@@ -53,7 +59,7 @@ input {
 input::placeholder {
   padding: 20px;
   font-size: 15px;
-  color: grey;
+  color: white;
 }
 
 input + button {

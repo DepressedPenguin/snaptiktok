@@ -8,21 +8,21 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
-  grid-gap: 10px 10px;
+  grid-gap: 20px 20px;
   padding: 10px;
 }
 
 #headline_features {
   text-align: center;
   font-weight: 400;
-  color: #191919;
+  color: white;
+  background: linear-gradient(to bottom left, #1c172e 0%, #ff0066 89%);
 }
 
 .boxs {
   height: 250px;
   width: 300px;
   background-color: white;
-  border: 1px solid #191919;
   border-radius: 5px;
   display: flex;
   align-items: center;

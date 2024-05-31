@@ -13,7 +13,7 @@ footer {
 .split_footer {
   background-color: white;
   color: white;
-  background-color: #ff2d55;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -32,7 +32,7 @@ footer {
 }
 
 .bottom_level_footer {
-  background-color: #ff2d55;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
   color: white;
   display: flex;
   align-items: center;

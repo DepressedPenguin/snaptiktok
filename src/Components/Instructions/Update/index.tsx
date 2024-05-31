@@ -13,7 +13,10 @@ export default function Update() {
             <h4 className="headline_card">(09/05/2024):</h4>
             <p>Fix Some broken links & Update terms</p>
           </div>
-          <div className="update_logs"></div>
+          <div className="update_logs">
+            <h4 className="headline_card">(31/05/2024):</h4>
+            <p>Update Theme Almost</p>
+          </div>
           <div className="update_logs"></div>
           <div className="update_logs"></div>
         </div>
