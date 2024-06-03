@@ -1,5 +1,5 @@
 section {
-  color: black;
+  color: white;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px 10px;
@@ -15,12 +15,13 @@ section {
   text-align: center;
 }
 .about_us h1 {
-  color: #ff2d55;
+  color: white;
 }
 
 .about_us_p {
   width: 70%;
   padding: 20px;
+  color: white;
   border-radius: 5px;
   display: flex;
   flex-direction: column;

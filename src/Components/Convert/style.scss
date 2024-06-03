@@ -15,13 +15,13 @@ section {
 }
 
 .deatils_box {
-  background-color: #ff2d55;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
   border-radius: 5px;
 }
 
 // LOGO DIV
 .logo_zone {
-  background-color: #ff2d55;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
   display: flex;
   border-radius: 5px;
   align-items: center;
@@ -33,7 +33,7 @@ section {
   height: 150px;
   border-radius: 50%;
   //   border: 1px solid white;
-  background-color: white;
+  // background-color: white;
 
   img {
     width: 100%;
@@ -45,7 +45,7 @@ section {
 
 // ACCOUNT USERNAME AND KEYOWRDS VIDEO
 .account_user_and_keywords {
-  background-color: #ff2d55;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
   border-top-right-radius: 20px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -65,7 +65,8 @@ section {
 // DOWNLOAD BTNS SECTION
 
 .download_btns {
-  background-color: #ff2d55;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
+  border-radius: 20px;
   border-top-right-radius: 20px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -74,7 +75,6 @@ section {
 }
 
 .download_deatils {
-  background-color: white;
   border-radius: 5px;
   display: flex;
   align-items: center;
@@ -82,7 +82,7 @@ section {
 }
 
 .perview_img {
-  background-color: #191919;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
 
   img {
     width: 100%;
@@ -92,10 +92,10 @@ section {
 }
 
 .download_button {
-  background-color: #191919;
+  background-color: white;
   border-radius: 10px;
   text-decoration: none;
-  color: white;
+  color: #1c172e;
   padding: 20px;
   width: 260px;
   //   height: 200px;
@@ -103,7 +103,7 @@ section {
 
 .back_formore {
   width: 150px;
-  background-color: #ff2d55;
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
   color: white;
   font-weight: 700;
   border-radius: 10px;

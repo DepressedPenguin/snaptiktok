@@ -87,15 +87,17 @@ type HomeProps = {
 function Home({ videoData, animation, fetchData, setUrlValue }: HomeProps) {
   return (
     <>
-      <Url
-        videoData={videoData}
-        animation={animation}
-        fetchData={fetchData}
-        setUrlValue={setUrlValue}
-      />
-      <Note />
-      <Features />
-      <Instructions />
+      <div className="main_snaptiktok_container">
+        <Url
+          videoData={videoData}
+          animation={animation}
+          fetchData={fetchData}
+          setUrlValue={setUrlValue}
+        />
+        <Note />
+        <Features />
+        <Instructions />
+      </div>
     </>
   );
 }

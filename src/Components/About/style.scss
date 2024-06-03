@@ -1,6 +1,6 @@
 // ABOUT .SCSS
 section {
-  color: black;
+  color: white;
   // border: 1px solid orange;
 
   display: grid;
@@ -19,13 +19,14 @@ section {
   // background-color: pink;
 
   h1 {
-    color: #ff2d55;
+    color: white;
   }
 }
 
 .about_us_p {
   width: 70%;
   padding: 20px;
+  color: white;
   border-radius: 5px;
   // background-color: pink;
 

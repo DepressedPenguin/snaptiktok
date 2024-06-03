@@ -1,6 +1,7 @@
 footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
 }
 
 .top_level_footer {

@@ -4,3 +4,7 @@
   box-sizing: border-box;
   font-family: "Lexend Giga", sans-serif;
 }
+
+.main_snaptiktok_container {
+  background: linear-gradient(to left, #1c172e 0%, #ff0066 89%);
+}
